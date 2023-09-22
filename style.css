@@ -1,0 +1,52 @@
+
+    h1 {
+        position: centered;
+        font-size: 40px;
+        font-family: fantasy;
+        color: red;
+    }
+    h2 {
+        position: centered;
+        font-size: 40px;
+        font-family: fantasy;
+        color: red;
+    }
+    img {
+        height: 150px;
+        width: 150px;
+        position: centered;
+    }
+    div:hover {
+        color: red;
+        animation-name: abc;
+      }
+    #table {
+        background-color: blueviolet;
+    }
+    #liil {
+        font-size: 30px
+    }
+    .i1 {
+        background-color: rgb(236, 80, 7); 
+        color: rgb(24, 93, 197);
+    }
+    .i2 {
+        background-color: rgb(39, 167, 7); 
+        color: rgb(235, 222, 50); 
+    }
+    .i3 {
+        background-color: darkmagenta; 
+        color:rgb(235, 10, 243); 
+    }
+    .i4 {
+        background-color: rgb(231, 23, 23); 
+        color: cornflowerblue; 
+    }
+    .i5 {
+        background-color: aliceblue; 
+        color: rgb(255, 147, 107); 
+    }
+    @keyframes abc {
+        from {color: red;}
+        to {color: skyblue;}
+    }
